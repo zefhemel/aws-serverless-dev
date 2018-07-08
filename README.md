@@ -9,4 +9,4 @@ This will run the following AWS services locally:
 
 To run:
 
-	docker run -it -p 4000:4000 -p 4001:4001 -p 4100:4100 zefhemel/aws-serverless-dev
+	docker run -d -p 4000:4000 -p 4001:4001 -p 4100:4100 zefhemel/aws-serverless-dev
